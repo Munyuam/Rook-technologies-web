@@ -19,7 +19,7 @@ const WhyUs = () => {
             <p className="text-gray-600 text-sm mt-1">
               Helping
               <span className="text-orange-600 font-medium"> small businesses </span>
-              grow with simple, affordable software solutions.
+              grow with simple, affordable tech solutions.
             </p>
           </div>
         </div>
