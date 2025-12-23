@@ -1,6 +1,6 @@
 # Rook Technology Website (v1.0.0)
 
-A modern and minimal **ReactJS** website for Rook Technology, designed with simple and standard webpages for a technology company.
+A **ReactJS** website for Rook Technology, designed with simple and standard webpages for a technology company.
 
 ---
 
