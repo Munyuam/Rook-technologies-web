@@ -6,13 +6,12 @@ A modern and minimal **ReactJS** website for Rook Technology, designed with simp
 
 ## Table of Contents
 
-- [Rook Technology Website (v1.0.0)](#rook-technology-website-v100)
-  - [Table of Contents](#table-of-contents)
-  - [About](#about)
-  - [Features](#features)
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Technologies](#technologies)
+- [About](#about)  
+- [Features](#features)  
+- [Installation](#installation)  
+- [Usage](#usage)  
+- [Technologies](#technologies)  
+- [License](#license)  
 
 ---
 
@@ -77,4 +76,5 @@ The website should now be running at [http://localhost:3000](http://localhost:30
 
 
 > Developed by Mwiza Sichinga
+
 
