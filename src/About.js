@@ -2,6 +2,8 @@ import React from 'react'
 import Navbar from './componets/ui/Navbar'
 import Footer from './componets/ui/Footer'
 import ContactAdvisor from './componets/ui/ContactAdvisor'
+import image from "../src/assets/images/designer.png"
+
 
 function About() {
   return (
@@ -11,9 +13,11 @@ function About() {
       <div className="max-w-6xl mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
         
         <div className="flex justify-center">
-          <div className="w-full h-72 lg:h-96 bg-gray-100 rounded-2xl flex items-center justify-center">
-            <span className="text-gray-400">[ Team ]</span>
-          </div>
+          <img
+            src={image}
+            alt="Team working together"
+            className="object-contain w-full h-[550px] pr-10"
+          />
         </div>
 
         <div>

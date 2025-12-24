@@ -14,14 +14,6 @@ const WhyUs = () => {
             alt="Team working together"
             className="object-contain w-full h-[450px]"
           />
-          {/* <div className="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm shadow-md rounded-xl p-4 max-w-xs">
-            <p className="font-semibold text-gray-800">Here for You</p>
-            <p className="text-gray-600 text-sm mt-1">
-              Helping
-              <span className="text-orange-600 font-medium"> small businesses </span>
-              grow with simple, affordable tech solutions.
-            </p>
-          </div> */}
         </div>
 
         <div>
