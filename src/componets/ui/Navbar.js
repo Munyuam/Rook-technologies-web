@@ -32,6 +32,12 @@ function Navbar() {
           <Link to="/contact" className="flex items-center gap-2 hover:text-orange-600 transition">
             <i className="bx bx-phone text-xl"></i> Contact
           </Link>
+
+          <Link to="/blogs" className="flex items-center gap-2 hover:text-orange-600 transition">
+            <i class='bx  bx-newspaper text-xl'></i>  Blogs
+          </Link>
+
+
           <Link
             to="/services"
             className="bg-orange-500 text-white px-4 py-2 rounded-md hover:bg-orange-600 transition flex items-center gap-2"
