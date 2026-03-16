@@ -7,14 +7,14 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto">
         <div className="flex flex-col md:flex-row items-center justify-between gap-6 mb-8">
           <div className="flex items-center gap-3">
-           <img
-            src={logo}
-            alt="Rook Tech Logo"
-            className="h-16 w-16 object-contain"
-          />
-          <h2 className="text-xl font-semibold text-gray-900">
-            Rook Technologies
-          </h2>
+            <img
+              src={logo}
+              alt="Rook Tech Logo"
+              className="h-16 w-16 object-contain"
+            />
+            <h2 className="text-xl font-semibold text-gray-900">
+              Rook Technologies
+            </h2>
           </div>
           <p className="text-sm text-gray-600 text-center md:text-left max-w-md">
             Start up Software Development Company. Helping small to medium businesses and individuals with

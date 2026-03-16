@@ -49,7 +49,7 @@ function Services() {
     title: "Business & Tech Consultation",
     description:
       "Need help improving how you work or sell? We guide you through using technology to save time and reach more people.",
-    icon: <i class='bxr  bx-lightbulb-alt-2'  ></i> ,
+    icon: <i className='bx bx-lightbulb-alt-2'></i> ,
     price: "MWK 5,000/hr",
     duration: "1–3 sessions",
     details:
@@ -84,17 +84,21 @@ function Services() {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="bg-white border rounded-2xl shadow-sm hover:shadow-lg transition p-6 flex flex-col items-left text-left"
+                className="bg-white border rounded-2xl shadow-sm hover:shadow-lg transition p-8 flex flex-col items-left text-left group"
               >
-                <div className="text-5xl mb-4">{service.icon}</div>
-                <h3 className="text-xl font-semibold text-gray-900">
+                <div className="text-5xl mb-6 text-orange-500 group-hover:scale-110 transition-transform duration-300">
+                  {service.icon}
+                </div>
+                <h3 className="text-xl font-bold text-gray-900 group-hover:text-orange-500 transition-colors">
                   {service.title}
                 </h3>
                 <p className="mt-3 text-gray-600">{service.description}</p>
-                <p className="mt-2 font-semibold text-gray-800">
-                  Price: {service.price}
-                </p>
-                <p className="text-gray-500">Duration: {service.duration}</p>
+                <div className="mt-6 border-t border-gray-100 pt-4">
+                    <p className="font-semibold text-gray-800">
+                    Price: {service.price}
+                    </p>
+                    <p className="text-gray-500 text-sm">Duration: {service.duration}</p>
+                </div>
               </div>
             ))}
           </div>

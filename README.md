@@ -6,12 +6,12 @@ A **ReactJS** website for Rook Technology, designed with simple and standard web
 
 ## Table of Contents
 
-- [About](#about)  
-- [Features](#features)  
-- [Installation](#installation)  
-- [Usage](#usage)  
-- [Technologies](#technologies)  
-- [License](#license)  
+- [About](#about)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Technologies](#technologies)
+- [License](#license)
 
 ---
 
@@ -23,8 +23,8 @@ This is the version 1.0.0 of the Rook Technology website. The website includes s
 
 ## Features
 
-- Developed with **ReactJS**  
-- Standard webpages for a tech company    
+- Developed with **ReactJS**
+- Standard webpages for a tech company
 
 ---
 
@@ -33,7 +33,7 @@ This is the version 1.0.0 of the Rook Technology website. The website includes s
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/your-username/rook-technology.git
+git clone https://github.com/Munyuam/Rook-technologies-web.git
 ```
 
 2. Navigate to the project directory:
@@ -60,21 +60,18 @@ The website should now be running at [http://localhost:3000](http://localhost:30
 
 ## Usage
 
-- Use this website as a base for a technology company's online presence.  
-- Easily customize the content, styles, and components as needed.  
-- Integrate additional features like forms, animations, or backend APIs.  
+- Use this website as a base for a technology company's online presence.
+- Easily customize the content, styles, and components as needed.
+- Integrate additional features like forms, animations, or backend APIs.
 
 ---
 
 ## Technologies
 
-- **ReactJS** - Frontend framework  
-- **Tailwind CSS / CSS** - Styling (if used)  
-- **EmailJS** - Contact form email handling  
+- **ReactJS** - Frontend framework
+- **Tailwind CSS / CSS** - Styling (if used)
+- **EmailJS** - Contact form email handling
 
 ---
 
-
 > Developed by Mwiza Sichinga
-
-

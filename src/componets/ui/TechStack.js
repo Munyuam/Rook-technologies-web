@@ -32,8 +32,8 @@ const TechStack = () => {
           return (
             <div
               key={index}
-              className="bg-white border border-gray-200 rounded-2xl p-8
-                         hover:shadow-xl transition duration-300"
+              className="bg-white border border-gray-100 rounded-2xl p-8
+                         hover:shadow-2xl transition-all duration-300 group"
             >
               <div className="w-12 h-12 rounded-lg bg-orange-100 flex items-center justify-center mb-6">
                 <i className={`${Icon} text-4xl text-orange-600`}/>
@@ -43,15 +43,15 @@ const TechStack = () => {
                 {item.title}
               </h3>
 
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-600 mb-6 leading-relaxed">
                 {item.description}
               </p>
 
               <a
                 href="/services"
-                className="text-orange-600 font-semibold hover:text-orange-700 transition"
+                className="text-orange-500 font-bold hover:text-orange-600 transition-all flex items-center gap-2"
               >
-                Read More <i class='bxr  bx-arrow-right text-xl'></i> 
+                Read More <i className='bx bx-right-arrow-alt text-2xl'></i> 
               </a>
             </div>
           );

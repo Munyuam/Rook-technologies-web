@@ -18,13 +18,9 @@ function HeroSection() {
         playsInline
       />
 
-      {/* Blue Gradient Overlay */}
       <div
         className="absolute inset-0 
-        bg-gradient-to-r 
-        from-[#0E4D92]/70 
-        via-[#1E88E5]/40 
-        to-transparent"
+        bg-gradient-to-r from-orange-500/60 to-orange-400/40 opacity-60"
       ></div>
 
       {/* Soft contrast layer */}
@@ -45,10 +41,10 @@ function HeroSection() {
           <Link
             to="/services"
             className="flex items-center gap-2
-                       bg-orange-500 hover:bg-orange-600
+                       bg-orange-600 hover:bg-orange-700
                        text-white font-semibold
-                       px-6 py-3 rounded-full
-                       transition shadow-lg shadow-orange-500/30"
+                       px-8 py-4 rounded-full
+                       transition shadow-xl shadow-orange-600/30 active:scale-95"
           >
             View Services <ArrowRight size={18} />
           </Link>
@@ -56,11 +52,11 @@ function HeroSection() {
           <Link
             to="/about"
             className="flex items-center gap-2
-                       border border-orange-400
+                       border-2 border-orange-400 backdrop-blur-sm
                        text-orange-400
                        hover:bg-orange-400 hover:text-white
-                       px-6 py-3 rounded-full
-                       transition"
+                       px-8 py-4 rounded-full
+                       transition-all font-semibold"
           >
             Read About Us <Mail size={18} />
           </Link>

@@ -8,7 +8,6 @@ const WhyUs = () => {
       <div className="max-w-7xl mx-auto px-6 grid md:grid-cols-2 gap-12 items-center">
 
         <div className="relative rounded-2xl overflow-hidden shadow-none">
-
           <img
             src={image}
             alt="Team working together"
@@ -17,27 +16,26 @@ const WhyUs = () => {
         </div>
 
         <div>
-          <h2 className="text-4xl font-bold text-gray-900 mb-6">
+          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
             Why <span className="text-orange-600">Choose Us?</span>
           </h2>
          <div className="text-gray-700 leading-relaxed">
           <p className="mb-6">
-            We’re a young software development business with one clear goal:{" "}
+            At Rook Technologies, we focus on what matters most: helping you grow.  
+            We’ve spent over a decade learning how 
             to make technology work for <span className="font-semibold">small and medium businesses</span>.  
             Whether you’re running a shop, a startup, or building your first big idea, 
-            we help you achieve that with <span className="text-orange-600 font-medium">easy</span>.
+            we help you achieve that with <span className="text-orange-600 font-medium">ease</span>.
           </p>
           <p className="mb-8 flex items-start gap-3">
-            <i className="bxr  bx-layers text-orange-600 text-2xl mt-1"></i>
+            <i className="bx bx-layers text-orange-600 text-2xl mt-1"></i>
             <span>
               With an Agile development approach, we make sure your project delivers value fast,
-              adapts quickly to feedback, and stays on time and on budget
+              adapts quickly to feedback, and stays on time and on budget.
             </span>
           </p>
-</div>
-
-
-          <div className="grid grid-cols-2 gap-5 mb-8">
+          
+          <div className="grid grid-cols-2 gap-3 mb-8">
             {[
               "Fair and affordable",
               "Research-driven approach",
@@ -59,6 +57,7 @@ const WhyUs = () => {
               Learn More
             </a>
           </div>
+         </div>
         </div>
       </div>
     </section>

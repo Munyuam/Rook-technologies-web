@@ -4,6 +4,8 @@ import Index from "../Home";
 import Contact from "../Contact";
 import Blogs from "../Blogs";
 import WhyBandwidthWorksForMalawi from "../Blogs/why-bandwith-works-for-malawi";
+import Downloads from "../Downloads";
+import SoftwareDetail from "../SoftwareDetail";
 import NotFound from "../errors/NotFound";
 
 const routes = [
@@ -29,6 +31,14 @@ const routes = [
      {
         path : '/contact',
         component : <Contact/>
+    },
+    {
+        path : '/downloads',
+        component : <Downloads/>
+    },
+    {
+        path : '/software/:id',
+        component : <SoftwareDetail/>
     },
     {
         path : '*',
